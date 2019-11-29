@@ -53,9 +53,10 @@ public class Player : MonoBehaviour
         if (other.tag == "Destroy")
         {
             Destroy(this.gameObject);
-            SceneManager.LoadScene("restart");
+            SceneManager.LoadScene("restart 1");
 
         }
+
         totalCount = count;
 
     }

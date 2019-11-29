@@ -60,16 +60,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ManiManu.cs" />
-    <Compile Include="Assets\restart.cs" />
-    <Compile Include="Assets\scoreTrigger.cs" />
-    <Compile Include="Assets\script\backgroundInstantiates.cs" />
     <Compile Include="Assets\script\DestroyerObject.cs" />
+    <Compile Include="Assets\script\ManiManu.cs" />
     <Compile Include="Assets\script\ObjectInstantiates.cs" />
     <Compile Include="Assets\script\objectMotion.cs" />
+    <Compile Include="Assets\script\pauseScreen.cs" />
     <Compile Include="Assets\script\Player.cs" />
-    <Compile Include="Assets\UIManager.cs" />
-    <Compile Include="Assets\updownDestroyer.cs" />
+    <Compile Include="Assets\script\restart.cs" />
+    <Compile Include="Assets\script\updownDestroyer.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/unity/unity_project/Flappy Bird 2d/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
